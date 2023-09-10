@@ -1,0 +1,85 @@
+
+.footbg{
+    background-color: #222831;
+    width: 100%;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+}
+.title1st{
+    
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+}
+.foot1{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin: 80px;
+    text-align: justify ;
+}
+.foot1:hover {
+    color: #ffff00;
+    /* Add any other styles you want for the hover effect */
+  }
+  
+.title2{
+
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.icon svg {
+    font-size: 30px;
+  }
+  
+  /* Set hover effect for the icons */
+  .icon svg:hover {
+    color: yellow;
+    /* Add any other styles you want for the hover effect */
+  }
+
+
+
+.title3rd{
+    color: white;
+    margin-top: 80px;
+    text-align: justify;
+  }
+  .lastrow {
+    color: white;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    /* position: absolute; */
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    text-align: center;
+  }
+  
+/* ... your main styles ... */
+
+@media only screen and (max-width: 767px) {
+  .title2 {
+    margin-top: 0px !important;
+  }
+  .title3rd {
+    color: white;
+    margin-top: 0px !important;
+    text-align: center;
+  }
+  .lastrow {
+    
+    
+    margin-top: -1px !important;
+    
+    
+  
+    background-color: #222831;
+    color: white;
+  }
+}

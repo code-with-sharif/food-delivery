@@ -1,0 +1,33 @@
+.bgcolor {
+  /* background-color: #333; */
+}
+
+.text-center {
+  float: left;
+  text-decoration: none;
+  color: black;
+}
+.text-center :hover {
+  color: red !important;
+}
+.mainnav {
+
+  display: flex;
+color: black;
+font-weight: bold;
+font-size: 20px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.mainnav > a {
+  display: flex;
+color: black;
+font-weight: bold;
+font-size: 20px;
+margin: 0px 30px;
+text-decoration: none;
+}
+.mainnav > a:hover{
+  color: red !important;
+}

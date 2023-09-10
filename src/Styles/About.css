@@ -1,0 +1,63 @@
+.aboutf1 {
+    background: #222831;
+    margin: 0;
+    padding: 50px 0;
+    /* margin-top: 40px !important; */
+  }
+  .abuotimg > img {
+    max-width: 300px; /* Set a specific width in pixels */
+    max-height: auto;
+    display: block;
+    margin: 0 auto;
+    height: 600px;
+  }
+  
+  .titipp {
+    margin-top: 70px !important;
+  }
+  
+  .title > h1 {
+    color: #ffffff;
+    margin-top: 130px;
+  }
+  
+  .body > p {
+    color: #ffffff;
+    
+  }
+  
+  .lastbtn {
+    margin-top: 15px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .row {
+      flex-direction: column;
+    }
+  
+    .abuotimg > img {
+      max-width: 100%;
+      max-height: auto;
+      margin: 0;
+      margin-top: 30px;
+    }
+  
+    .titipp {
+      margin-top: 20px;
+    }
+    .title > h1 {
+    
+      margin-top: 50px;
+    }
+    .body > p {
+     text-align: center !important;
+     position: relative;
+      
+    }
+      
+    .aboutf1 {
+      margin-top: 0px !important;
+    }
+  
+  }
+  

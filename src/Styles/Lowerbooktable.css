@@ -1,0 +1,45 @@
+.R111{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 200px; */
+    }
+.card-text1{
+width: 50%;
+
+}
+
+.imghandle>img {
+    max-width: 120px; 
+    border: 5px solid #ffff00;
+    margin-top: 5px;
+  }
+
+@media only screen and (max-width: 767px) {
+   
+    .card-text1{
+        width:95% !important;
+        padding-left: 0px;
+        margin-left: 0px;
+        }
+.setmediaq{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.card-body .bodytext{
+  padding-left: 2% !important;
+}
+.R111{
+  
+  margin-top: 50px;
+  }
+
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
+    .R111{
+  
+      margin-top: 50px;
+      }
+  }
+  
+

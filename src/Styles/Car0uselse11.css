@@ -1,0 +1,9 @@
+.w-100{
+    height: 730px;
+}
+@media  (max-width: 767px) {
+    .w-100 {
+      height: 380px;
+    }
+  }
+  
